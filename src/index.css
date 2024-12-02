@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter" , sans-serif;
+}
+
+.custom_img_profile{
+  width: 450px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+
+}
+
+.custom_project_img{
+  transition: all 0.2s ease-in-out;
+}
+
+.custom_project_img:hover{
+  transform: scale(1.2);
+}
+
+.jobimg{
+  height: 100px;
+  border-radius: 15px;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.jobimg:hover{
+  transform: scale(1.1);
+  border-radius: 1px;
+  border: 2px solid black;
+}
